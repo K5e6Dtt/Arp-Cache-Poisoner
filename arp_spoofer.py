@@ -2,7 +2,7 @@
 #target_ip is the ip that we are going to send the arp response to
 #For packet forwarding do --> echo 1 >  /proc/sys/net/ipv4/ip_forward (this channges the value from 0 to 1)
 #And this needs administrative permission to run
-#You cn check with wireshark that the attacker has a duplicate mac
+#You can check with wireshark that the attacker has a duplicate mac
 
 
 import scapy.all as scapy
